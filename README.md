@@ -13,7 +13,7 @@ Yan Wang 22019755
 
 # 制作过程
 
-## week 01
+## week 01 Sources of inspiration and research
 
 **Design Background**
 
@@ -59,17 +59,15 @@ In the Chinese version of "The Second Sex," there may be a more precise descript
 
 How to make women consciously adhere to and uphold patriarchy? It constructs a pink paradise for women, where they are promised love, an effortless life path, and the belief that enhancing their appearance will yield more resources. **It leads women to believe that as long as they conform to patriarchal social standards and cater to the male gaze, they can obtain the maximum benefits.** However, behind this paradise lies patriarchy, which often includes any social, political, or economic mechanism that evokes male dominance over women. **Because patriarchy is a social construction, it can be overcome by revealing and critically analyzing its manifestations.** This is especially crucial for teenagers, who, due to their less mature cognitive development, are more susceptible to the temptation of such a deceptive paradise. **Only by shattering the illusions of this paradise can we awaken the self-awareness of more women and propel the achievement of gender equality.**
 
-
+## week 02 Game research
 ### The application of dystopian critique design in the gaming industry
 
 **Paper，Please**
 
 <img height="200" src="https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/27ff91d7-887f-4f15-925e-5e528df61a20">
 
-
 The player takes on the role of a customs officer, testing their humanity by deciding whether to help refugees or uphold the law fairly.
   
-<br>      
 
 **Mind Scanners**
 
@@ -77,17 +75,18 @@ The player takes on the role of a customs officer, testing their humanity by dec
 
 The player takes on the role of a mental health doctor working for an threatening government, tasked with determining if residents have mental illness and treating them by erasing memories.
 
-<br> 
 
 **Do Not Feed the Monkeys**
 
-  ![](https://secure2.wostatic.cn/static/fCYY8EFG5kKSthdhNoHpEj/Do_Not_Feed_the_Monkeys_cover.jpg?auth_key=1699778313-g4ABPUcvD2faPGeKK5zURL-0-c3dcf5c64d4e89f991c2ffa1398ff246)
-
-  In the game, players obtain clues by engaging in voyeurism and monitoring others. It provides [social commentary](https://en.wikipedia.org/wiki/Social_commentary) on issues related to [mass surveillance](https://en.wikipedia.org/wiki/Mass_surveillance) and [social media](https://en.wikipedia.org/wiki/Social_media).
+<img height="200" src="https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/9d60708f-d6d0-473b-b158-389c819fa047">
+ 
+  In the game, players obtain clues by engaging in voyeurism and monitoring others. It provides social commentary on issues related to mass surveillance.
 
 ### Game that express feminism
 
 **No Male Heros**  
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/82a05730-39dd-404d-b1bd-7e65ef4f733f)
 
 The main character Neil is a passionate video gamer in a parallel universe where gender roles are reversed. He is used to video games where women are in charge, without any male heroes. One day, the daily routine of cooking, cleaning and houseman boredom is disrupted by a chain of events getting not only threatening, but more and more surrealistic as well…
  
@@ -95,24 +94,29 @@ The main character Neil is a passionate video gamer in a parallel universe where
 
 **Full Bloom**
 
-
+<img height="200" src="https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/55d167b4-71b4-475f-b92b-c48a8deb5798">
 
 A short playable story about some of the challenges that women face day to day. Interact and play with arrow keys.
 
-  ![](https://secure2.wostatic.cn/static/2sFb8QdiCboBCXuxF55AW2/image.png?auth_key=1699778312-oGGwfscrtzW5RJpwgW4HT8-0-5d332b90ea20a2cdf7a94c775124c7db)
-
-  A short playable story about some of the challenges that women face day to day. Interact and play with arrow keys.
 
 **Girl Hate**
 
-  ![](https://secure2.wostatic.cn/static/o3rJjzWpM6FkDFkLfuFSBY/1FS7aH.png?auth_key=1699778312-sDL4xKSY1fVXkWM2AwkrwU-0-da18550cb7a72a9b6f54ac7ef9572489)
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/666b6357-b15f-4d8f-aa90-d066bb71c7d3)
 
   You're not particularly interested in clothes or makeup and gossip has never been your thing. People say girls aren't good at math, but you are, so you're not exactly like other girls. Not that you like them, anyway.
 
   A 30 minutes exploration of being a teenaged girl struggling with what girls should or should not be.
 
 
-  
+### Game style thoughts
+
+## Plan 1
+
+The game is set in a pink paradise, primarily composed of scenes resembling a household, such as bedrooms and kitchens, symbolizing the stereotypical daily life of women. Within this paradise, you will encounter many women look like Barbie dolls, all sharing the same appearance, representing the standardized image of women. 
+
+**visual reference**
+  ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/2c7c35c7-49df-45f1-9450-c81e7086c3f3)
+
 
 
 
