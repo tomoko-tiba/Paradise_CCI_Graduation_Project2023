@@ -115,7 +115,17 @@ A short playable story about some of the challenges that women face day to day. 
 The game is set in a pink paradise, primarily composed of scenes resembling a household, such as bedrooms and kitchens, symbolizing the stereotypical daily life of women. Within this paradise, you will encounter many women look like Barbie dolls, all sharing the same appearance, representing the standardized image of women. 
 
 **visual reference**
-  ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/2c7c35c7-49df-45f1-9450-c81e7086c3f3)
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/b6b19c9b-2b9c-4981-83cc-3e831f1a455b)
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/6cf99b86-6304-438f-b1b4-b6b4bb5b9e3e)
+
+**map**
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/34135d1a-afab-4f1e-aec6-2c569c15ea10)
+
+
+## Plan 2
+
+Based on the concept of 'Paradise', a theme park is chosen as the setting for the elements. Players are taken into a fantasy world named 'Paradise', where they must help Barbie - the protagonist's alternate personality created in the real world due to societal pressures and patriarchal ideology - realize her true self, rather than being a slave to perfection standards. By destroying the brainwave control device, players will help Barbie reshape her brain, regain self-awareness, and escape Paradise together to return to the real world and be herself again.
 
 
 
