@@ -1,4 +1,4 @@
-![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/073aa95b-89d3-4471-81ad-8bdb2c2d4dde)# Paradise_CCI_Graduation_Project2023
+# Paradise_CCI_Graduation_Project2023
 Creative Computing
 Yan Wang 22019755
 
