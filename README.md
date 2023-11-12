@@ -1,4 +1,4 @@
-# Paradise_CCI_Graduation_Project2023
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/073aa95b-89d3-4471-81ad-8bdb2c2d4dde)# Paradise_CCI_Graduation_Project2023
 Creative Computing
 Yan Wang 22019755
 
@@ -110,9 +110,11 @@ A short playable story about some of the challenges that women face day to day. 
 
 ### Game style thoughts
 
-## Plan 1
+### - Plan 1
 
-The game is set in a pink paradise, primarily composed of scenes resembling a household, such as bedrooms and kitchens, symbolizing the stereotypical daily life of women. Within this paradise, you will encounter many women look like Barbie dolls, all sharing the same appearance, representing the standardized image of women. 
+The game is set in a pink paradise, primarily composed of scenes resembling a household, such as bedrooms and kitchens, symbolizing the stereotypical daily life of women. Within this paradise, you will encounter many women look like Barbie dolls, all sharing the same appearance, representing the standardized image of women. <br>
+However, The character controlled by the player looks very different from the other women, as she does not conform to the mainstream aesthetic. **Because her appearance is not recognized by the evaluation system in the paradise, the player faces attacks from other characters,** with the attacks being manifested in the form of language, represented as tangible bullets when the player encounters other characters. <br>
+Actually, the true antagonists in the paradise are not these women characters but** a gigantic eye **at the center of the paradise. **Characters have become hostile due to the mental contamination caused by the boss's influence.** The player's skills can temporarily restore clarity to these characters,** and the player needs to find clues within the scenes and help the characters regain their consciousness through chatting.**
 
 **visual reference**
 
@@ -120,12 +122,57 @@ The game is set in a pink paradise, primarily composed of scenes resembling a ho
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/6cf99b86-6304-438f-b1b4-b6b4bb5b9e3e)
 
 **map**
-![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/34135d1a-afab-4f1e-aec6-2c569c15ea10)
+
+<img height="500" src="https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/34135d1a-afab-4f1e-aec6-2c569c15ea10">
 
 
-## Plan 2
+
+### - Plan 2
 
 Based on the concept of 'Paradise', a theme park is chosen as the setting for the elements. Players are taken into a fantasy world named 'Paradise', where they must help Barbie - the protagonist's alternate personality created in the real world due to societal pressures and patriarchal ideology - realize her true self, rather than being a slave to perfection standards. By destroying the brainwave control device, players will help Barbie reshape her brain, regain self-awareness, and escape Paradise together to return to the real world and be herself again.
+
+**visual reference**
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/f93eb42c-b5d1-4296-9693-cd16ad2cb24b)
+
+ <br>
+ 
+## week03 
+
+### 基于plan1的进一步尝试
+
+**Game Mechanics**
+  1. Use skills to calm down the character **temporarily**, preventing her from attacking you.
+  2. After finding clues within the scene, engage in dialogue with characters to awaken their self-awareness.
+  3. Awakened characters will no longer attack the player
+  4. When the player is hit, the sounds of these verbal attacks are played. 
+  5. If the player is repeatedly hit, they will lose consciousness, lose the game.
+  6. Awakened characters will provide the player with an energy sphere, and when the player collects all the energy spheres, they use them to defeat the boss and complete the game.
+
+**Employing collage techniques for the construction of reference materials for the Boss's image.**
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/06021a41-0ae0-4b98-a5c0-194ef234d323)
+
+**Attempt at Scene Modeling**
+
+attempt1
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/7c8ffaf6-7d72-49c6-a7a4-7b7340afb63b)
+
+attempt2
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/bcf16480-79a9-4d7b-9664-78978d45aed0)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
