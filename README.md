@@ -137,9 +137,7 @@ Based on the concept of 'Paradise', a theme park is chosen as the setting for th
 
  <br>
  
-## week03 
-
-### 基于plan1的进一步尝试
+## week03 Further Attempts Based on Plan 1
 
 **Game Mechanics**
   1. Use skills to calm down the character **temporarily**, preventing her from attacking you.
@@ -170,11 +168,16 @@ Based on the concept of 'Paradise', a theme park is chosen as the setting for th
 
 2. The use of a pink aesthetic led to a visual presentation that skewed too young, akin to a children's game. My intention is for the game to convey a more serious tone, rendering the current approach inappropriate.
 
+## week04 Further Attempts Based on Plan 2
 
+**Game Mechanics** 
 
+To make the player's objectives clearer during the game, here are the specific steps for the game design:
 
-
-
+1. **Objective Identification and Interaction with Machines**: Set in a virtual space named "Paradise", the player's primary task is to locate and shoot multiple machines scattered throughout the game scene.
+2. **Collection and Evasion Mechanics**: Machines drop "Voice Modules" when shot, which are key elements used to control the protagonist Barbie's thoughts. Players need to collect all these modules while dodging attacks from Barbie, and then destroy them.
+3. **Deactivation of Control and Conflict Avoidance**: When all modules are damaged, Barbie will no longer be controlled and will cease her attacks on the player.
+4. **Final Dialogue and Awakening**: In the final stage of the game, the player will converse with Barbie to help awaken her self-awareness, and eventually leave "Paradise" together, returning to the real world.
 
 
 
