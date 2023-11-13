@@ -172,7 +172,7 @@ Based on the concept of 'Paradise', a theme park is chosen as the setting for th
 
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/e2f4efeb-af4c-4167-aa84-40599b85bd02)
 
-* I used Midjourney to generate the background image.
+*I used Midjourney to generate the background image.
 
 
 ## week04 Further Attempts Based on Plan 2
@@ -186,14 +186,25 @@ To make the player's objectives clearer during the game, here are the specific s
 3. **Deactivation of Control and Conflict Avoidance**: When all modules are damaged, Barbie will no longer be controlled and will cease her attacks on the player.
 4. **Final Dialogue and Awakening**: In the final stage of the game, the player will converse with Barbie to help awaken her self-awareness, and eventually leave "Paradise" together, returning to the real world.
 
-**Learning UE5 Engine** 
+**Learning UE5 Engine and Blueprint** 
 
 Course Link (Course language - Chinese)
 
 https://www.bilibili.com/video/BV1Rj411w78h/?spm_id_from=333.1350.jump_directly&vd_source=9bf7aeaaa765ed85b79df1acfcd83c5a
 
+**Development and Implementation of Page and Scene Transitions**
 
+1. Open Level Blueprint - Search for Create Widget - Select the Class of the Prepared UI Widget - Add to Viewport
+   
+    ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/560f98a0-bf0f-4b8d-936f-8d0fcc28a919)
 
+2. Load the logo for 2 seconds before switching to the next page; the old page needs to be removed from the parent.
+   
+    ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/8baa1967-335e-458e-bebd-9dc87b0b5d26)
+
+3. Quit Game and Game Level Transition
+
+   <img height="300" src="https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/3f065f4c-acf3-4944-a462-4ed10c9fa9c8">
 
 
 **Attempt at Scene Modeling**  using store asset
