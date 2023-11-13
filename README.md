@@ -139,7 +139,7 @@ Based on the concept of 'Paradise', a theme park is chosen as the setting for th
  
 ## week03 Further Attempts Based on Plan 1
 
-**Game Mechanics**
+**Setup Game Mechanics**
   1. Use skills to calm down the character **temporarily**, preventing her from attacking you.
   2. After finding clues within the scene, engage in dialogue with characters to awaken their self-awareness.
   3. Awakened characters will no longer attack the player
@@ -153,13 +153,13 @@ Based on the concept of 'Paradise', a theme park is chosen as the setting for th
 
 **Attempt at Scene Modeling**
 
-**attempt1**
+**Attempt1**
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/7c8ffaf6-7d72-49c6-a7a4-7b7340afb63b)
 
-**attempt2**
+**Attempt2**
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/bcf16480-79a9-4d7b-9664-78978d45aed0)
 
-**attempt3 Utilizing Store Resources**
+**Attempt3: Utilizing Store Asset**
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/f5053c13-3a4a-4042-8c22-4ef59d119100)
 
 **Challenges encountered:**
@@ -168,9 +168,16 @@ Based on the concept of 'Paradise', a theme park is chosen as the setting for th
 
 2. The use of a pink aesthetic led to a visual presentation that skewed too young, akin to a children's game. My intention is for the game to convey a more serious tone, rendering the current approach inappropriate.
 
+**Creating UI Interface and Game Cover in UE5** 
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/e2f4efeb-af4c-4167-aa84-40599b85bd02)
+
+* I used Midjourney to generate the background image.
+
+
 ## week04 Further Attempts Based on Plan 2
 
-**Game Mechanics** 
+**Setup Game Mechanics** 
 
 To make the player's objectives clearer during the game, here are the specific steps for the game design:
 
@@ -178,6 +185,20 @@ To make the player's objectives clearer during the game, here are the specific s
 2. **Collection and Evasion Mechanics**: Machines drop "Voice Modules" when shot, which are key elements used to control the protagonist Barbie's thoughts. Players need to collect all these modules while dodging attacks from Barbie, and then destroy them.
 3. **Deactivation of Control and Conflict Avoidance**: When all modules are damaged, Barbie will no longer be controlled and will cease her attacks on the player.
 4. **Final Dialogue and Awakening**: In the final stage of the game, the player will converse with Barbie to help awaken her self-awareness, and eventually leave "Paradise" together, returning to the real world.
+
+**Learning UE5 Engine** 
+
+Course Link (Course language - Chinese)
+
+https://www.bilibili.com/video/BV1Rj411w78h/?spm_id_from=333.1350.jump_directly&vd_source=9bf7aeaaa765ed85b79df1acfcd83c5a
+
+
+
+
+
+**Attempt at Scene Modeling**  using store asset
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/8461fc00-2447-4769-b018-147dd6de5773)
 
 
 
