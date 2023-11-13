@@ -13,7 +13,7 @@ Yan Wang 22019755
 
 # 制作过程
 
-## week 01 Sources of inspiration and research
+## Week 01 Sources of inspiration and research
 
 **Design Background**
 
@@ -59,7 +59,7 @@ In the Chinese version of "The Second Sex," there may be a more precise descript
 
 How to make women consciously adhere to and uphold patriarchy? It constructs a pink paradise for women, where they are promised love, an effortless life path, and the belief that enhancing their appearance will yield more resources. **It leads women to believe that as long as they conform to patriarchal social standards and cater to the male gaze, they can obtain the maximum benefits.** However, behind this paradise lies patriarchy, which often includes any social, political, or economic mechanism that evokes male dominance over women. **Because patriarchy is a social construction, it can be overcome by revealing and critically analyzing its manifestations.** This is especially crucial for teenagers, who, due to their less mature cognitive development, are more susceptible to the temptation of such a deceptive paradise. **Only by shattering the illusions of this paradise can we awaken the self-awareness of more women and propel the achievement of gender equality.**
 
-## week 02 Game research
+## Week 02 Game research
 ### The application of dystopian critique design in the gaming industry
 
 **Paper，Please**
@@ -137,7 +137,7 @@ Based on the concept of 'Paradise', a theme park is chosen as the setting for th
 
  <br>
  
-## week03 Further Attempts Based on Plan 1
+## Week 03 Further Attempts Based on Plan 1
 
 **Setup Game Mechanics**
   1. Use skills to calm down the character **temporarily**, preventing her from attacking you.
@@ -175,7 +175,7 @@ Based on the concept of 'Paradise', a theme park is chosen as the setting for th
 *I used Midjourney to generate the background image.
 
 
-## week04 Further Attempts Based on Plan 2
+## Week 04 Further Attempts Based on Plan 2
 
 **Setup Game Mechanics** 
 
@@ -207,10 +207,43 @@ https://www.bilibili.com/video/BV1Rj411w78h/?spm_id_from=333.1350.jump_directly&
    <img height="300" src="https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/3f065f4c-acf3-4944-a462-4ed10c9fa9c8">
 
 
-**Attempt at Scene Modeling**  using store asset
+**Attempt at Scene Modeling**     *using store asset
 
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/8461fc00-2447-4769-b018-147dd6de5773)
 
 
+## Week 05 Design and 3d Modelling
+
+**Design enemy character**
+
+I based the 3D model on the collage image I made earlier. Initially, I set the enemy as a large fixed-position machine, but later I thought that simplifying the enemy into a small machine floating in the sky would make the game more interesting, so I changed the plan. 
+
+I have also integrated elements of **eyeballs** into the design of the machine, creating a sensation for players of being under scrutiny. This is intended to symbolize the machine as an embodiment of the **male gaze**.
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/99a930db-d0a6-4221-9781-ce59f5d37d01)
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/dc00cc2a-05ed-4b8e-8930-4c6f7cecc07f)
+
+**Selection of color**  
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/97c58696-ba62-48ed-9a55-621f95c71122)
+
+**Final model**  display in Blender
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/9b193bd4-882d-4c33-8908-1729cbaed3c3)
+
+After importing the model into UE5, it loses the material effects adjusted in the Blender nodes. It is necessary to adjust the materials again in UE5, such as reducing the material's metallicity and giving it a lower roughness to achieve a metallic effect.
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/0ceba416-1295-4d82-907b-5d7912a7f509)
+
+Using Blueprints to Control Enemy Rotation: <br>
+Create an empty object named 'rotate' as the parent, and set the distance between the 'rotate' object and the 'enemy' object to serve as the center of rotation
+    
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/f2bcfe39-0814-423e-aa86-aca58370b80b)
+
+**Cover Design Draft**
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/cb1327b7-22e6-49c1-84f7-3468cff35b72)
 
 
+## Week 06
