@@ -164,7 +164,7 @@ Based on the concept of 'Paradise', a theme park is chosen as the setting for th
 
 **Challenges encountered:**
 
-1. The difficulty in directly importing materials created with Blender nodes into the game engine, necessitating a material baking process. Individually baking every object in the scene would be time-consuming. Additionally, the plethora of exported texture maps demands considerable time in aligning each object with its respective material during the importation into the game engine.
+1. The difficulty in directly importing materials created with Blender nodes into the game engine, necessitating a material baking process. Individually baking every object in the scene would be time-consuming. Additionally, the plethora of exported texture maps demands considerable time in matching each object with its respective material during the importation into the game engine.
 
 2. The use of a pink aesthetic led to a visual presentation that skewed too young, akin to a children's game. My intention is for the game to convey a more serious tone, rendering the current approach inappropriate.
 
@@ -245,5 +245,6 @@ Create an empty object named 'rotate' as the parent, and set the distance betwee
 
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/cb1327b7-22e6-49c1-84f7-3468cff35b72)
 
+<br>
 
 ## Week 06
