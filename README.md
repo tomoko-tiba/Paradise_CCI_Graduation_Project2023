@@ -155,18 +155,20 @@ Based on the concept of 'Paradise', a theme park is chosen as the setting for th
 
 **Attempt at Scene Modeling**
 
-attempt1
+**attempt1**
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/7c8ffaf6-7d72-49c6-a7a4-7b7340afb63b)
 
-attempt2
+**attempt2**
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/bcf16480-79a9-4d7b-9664-78978d45aed0)
 
+**attempt3 Utilizing Store Resources**
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/f5053c13-3a4a-4042-8c22-4ef59d119100)
 
+**Challenges encountered:**
 
+1. The difficulty in directly importing materials created with Blender nodes into the game engine, necessitating a material baking process. Individually baking every object in the scene would be time-consuming. Additionally, the plethora of exported texture maps demands considerable time in aligning each object with its respective material during the importation into the game engine.
 
-
-
-
+2. The use of a pink aesthetic led to a visual presentation that skewed too young, akin to a children's game. My intention is for the game to convey a more serious tone, rendering the current approach inappropriate.
 
 
 
