@@ -174,6 +174,7 @@ Based on the concept of 'Paradise', a theme park is chosen as the setting for th
 
 *I used Midjourney to generate the background image.
 
+<br>
 
 ## Week 04 Further Attempts Based on Plan 2
 
@@ -320,9 +321,9 @@ Trigger events through dialogue:  Create a new dialogue event, call the event in
 Write the event function in the First-Person Character Blueprint.
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/f91d35ad-7fb7-4cfa-b8a2-11b2d5057587)
 
-**Debug:** During chatting, selecting options requires the mouse, but this causes a conflict as the camera moves with the mouse movement.
+**Bug:** During chatting, selecting options requires the mouse, but this causes a conflict as the camera moves with the mouse movement.
 
-The solution is to set a Boolean variable 'IsChatting'; mouse control of the camera movement is only allowed when 'IsChatting' is false.
+**Debug:** The solution is to set a Boolean variable 'IsChatting'; mouse control of the camera movement is only allowed when 'IsChatting' is false.
 
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/8366be49-44dd-4589-9c68-81b69842e177)
 
@@ -340,13 +341,75 @@ The solution is to set a Boolean variable 'IsChatting'; mouse control of the cam
 
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/f1257c54-73d8-47bb-b9b3-6497b85fefaf)
 
-### Enemy Character
+<br>
 
+## Week 08
 
+### Develop Enemy Character
 
+Refer to the shooting and bullet generation logic in the First-Person Template; when the Enemy is hit by a bullet, generate parts.
 
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/4980f697-87e7-4391-a604-1473b13b5d4f)
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/a27dc83c-09b3-4c27-96ec-077142c40a8e)
 
+**Enable physics simulation**, and the modules will automatically display a falling effect from mid-air.
 
+**Bug**: Hitting once triggers the effect twice.
 
+**Debug**：In the collision preset settings of the Enemy, it must be set to block bullets; otherwise, the bullets passing through the enemy would trigger the effect again.
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/2e786965-1707-46d3-9bc6-51b27b951fff)
+
+#### Destroy the module: The player needs to collect all the voice modules from the enemies to break the brainwashing control they have over Barbie.
+
+Copy the blueprint of the PickupActor, modify its logic, and change the trigger statement to a prompt that says 'Press J to destroy the module'
+
+**Bug**:  Attempted to implement the 'Press J' key event in the Actor, but it cannot be triggered.
+
+**Debug**:  Change to placing the code for destroying the module inside the PlayerCharacter.
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/b8baa9e1-c433-4527-a4fd-74a6fdbc45aa)
+
+When all the modules are destroyed, prompt the player to find the NPC Barbie to proceed to the next stage of the game.
+
+When the player completes the previous stage, it is necessary to trigger Barbie's state to become non-aggressive and available for dialogue. This involves **communication between the First-Person Character Blueprint and the Barbie Character Blueprint**.
+
+**Solution:** Use an **Event Dispatcher**, and assign the event in the Level Blueprint, to facilitate information transfer between the two blueprints.
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/34e90b54-fb97-4eeb-bc64-ecce33b79e65)
+
+<br>
+
+## Week 09 User Testing & Iteration
+
+During the mid-stage of the project, a demo of the game was developed. I invited three people for game testing and conducted interviews to gather feedback, resulting in the following opinions:
+
+1. The dialogue options for characters are too limited and brief, lacking in storytelling depth.
+2. There is no connection between the five NPCs, failing to form a cohesive story.
+3. The game's objectives are unclear, leading to confusion about what to do during gameplay.
+4. A bug causes multiple NPCs to chase the player simultaneously, making the game too difficult and causing visual confusion for the player.
+5. The relationship between the machine-like enemies and the Barbie NPC in the game is unclear.
+
+Reflecting on the feedback, I identified several shortcomings in the game:
+
+1. Each NPC's script requires detailed descriptions to enable players to deeply understand the characters' backgrounds and emotional states. This would necessitate extensive story writing, potentially burdening players with excessive reading. Therefore, reducing the number of NPCs seems the best solution for now.
+2. My storytelling skills are limited, making it challenging to craft compelling stories for entirely fictional characters. Adapting NPC stories from my own experiences could add more detail and emotional resonance with players.
+3. Limited art resources and a small map size can easily lead to bugs with multiple NPCs chasing the player.
+4. There is insufficient interaction feedback between players and enemies.
+
+Plans for game iteration:
+
+1. Create a simpler and more understandable game process, reducing the number of Barbie NPCs from five to one. The main objective for players will be to rescue this single Barbie.
+2. Increase the number of enemies. After attacking enemies, they will drop parts containing brainwashing thoughts about women, explaining the game's background.
+3. In terms of dialogue, increase the options and add more detailed descriptions, allowing players to gain a deeper understanding of the characters' backgrounds and emotional states. Also, enhance the coherence and logic of dialogue scenes to improve the storytelling.
+4. Make the game objectives clearer and more explicit. Players should know what they need to do to better enjoy the game. I will add more guidance and hints to help players understand the game objectives better.
+
+## Week 10 Enrich The Details
+
+1. **Use Sequencer to Create Opening Animation**: Implement Unreal Engine's Sequencer to produce an engaging opening animation. This tool allows for sophisticated cinematic creation, enabling the integration of various elements like camera movements, character animations, and environmental effects to craft a visually compelling introduction to the game.
+   
+   ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/23c3f205-771c-4afa-b149-9d43b1d6b950)
+   ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/e8de876f-0713-43fa-a4bd-2c3e11ff3245)
+
+2. **Refine Game Instruction Copy, Utilize ChatGPT for Optimization**: Focus on improving the game's instructional text. This involves revising prompts, directions, and any other written guidance provided to the player within the game. For optimization and refinement of this copy, leverage the capabilities of AI tools like ChatGPT. These tools can assist in enhancing the clarity, conciseness, and engagement of the text, ensuring that instructions are easy to understand and align with the game's overall tone and style.
 
 
