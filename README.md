@@ -242,10 +242,64 @@ Create an empty object named 'rotate' as the parent, and set the distance betwee
     
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/f2bcfe39-0814-423e-aa86-aca58370b80b)
 
-**Cover Design Draft**
+**Cover Redesign Draft**
 
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/cb1327b7-22e6-49c1-84f7-3468cff35b72)
 
 <br>
 
-## Week 06
+## Week 06 Develop T  he Game Using Blueprint
+
+### Main tasks of game development:
+**1. Player character functions (UI, shoot, pick up objects, dialogue)**
+
+**2. NPC Barbie character functions (ai patrol, chasing players)**
+
+**3. Enemy character function (drops modules when attacked)**
+
+**UI-HP bar**
+  1. Make a PlayerState component to save the Player's HP and other data
+  2. Mount playerState to Player blueprint
+  3. Get HP data in the game UI blood volume control
+
+**Debug Process：** Unable to display correct health bar   
+1. It was found that the result of calculating the percentage of the health bar is always 0, but the correct HP value can be obtained.
+   
+    ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/9bfc4e80-7359-4ca0-a73d-0deb1ebb556e)
+
+
+3. The guess is that the error is caused by data type conversion in the division function.
+4. The HP value type saved by the PlayerState component was changed from int to float, which was successfully solved.
+   
+    ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/16345fba-4272-4237-bda7-382194b40526)
+
+**Pick up objects**  Action and UI synchronization
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/779907e8-9bd3-416e-8c48-42506f16bfd6)
+
+In the game, the enemies are machines that control Barbie's thoughts. When a machine is hit by the player, Barbie regains her sanity, stops attacking the player, and becomes available for dialogue.
+
+**Barbie:**
+
+1. Detects the player's approach and automatically pathfinds to chase the player.
+2. Becomes available for dialogue when hit by an enemy.
+3. Provides the player with items after completing the dialogue.
+
+**Enemy (in the air):**
+
+1. Set up collision detection. Responds when hit by the player's bullets, changing Barbie's status to be available for dialogue.
+2. After 3 minutes, revert Barbie's status back to attack mode.
+
+**Communication between Barbie Actor and Enemy Actor Blueprints:**
+
+The enemy creates an Event Dispatcher ED_EnemyStop.
+
+
+
+
+
+
+
+
+
+
