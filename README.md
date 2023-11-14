@@ -5,7 +5,7 @@ Yan Wang 22019755
 ****
 ## Content
 * [Introduction](#Introduction)
-* [Production Process](#ProductionProcess)
+* [Production Process](#Production_Process)
 * [Conclusion](#Conclusion)
 
 ****
@@ -18,7 +18,7 @@ Yan Wang 22019755
 ### 演示视频
 
 ****
-## Production Process
+## Production_Process
 
 ## Week 01 Sources of inspiration and research
 
