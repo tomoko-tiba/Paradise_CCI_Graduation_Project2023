@@ -410,6 +410,6 @@ Plans for game iteration:
    ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/23c3f205-771c-4afa-b149-9d43b1d6b950)
    ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/e8de876f-0713-43fa-a4bd-2c3e11ff3245)
 
-2. **Refine Game Instruction Copy, Utilize ChatGPT for Optimization**: Focus on improving the game's instructional text. This involves revising prompts, directions, and any other written guidance provided to the player within the game. For optimization and refinement of this copy, leverage the capabilities of AI tools like ChatGPT. These tools can assist in enhancing the clarity, conciseness, and engagement of the text, ensuring that instructions are easy to understand and align with the game's overall tone and style.
+2. **Refine Game Instruction Copy, Utilize ChatGPT for Optimization**: Focus on improving the game's instructional text. This involves revising prompts, directions, and any other written guidance provided to the player within the game. I used ChatGPT to generate copy. These tools can assist in enhancing the clarity, conciseness, and engagement of the text, ensuring that instructions are easy to understand and align with the game's overall tone and style.
 
 
