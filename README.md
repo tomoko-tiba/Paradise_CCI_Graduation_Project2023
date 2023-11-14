@@ -11,11 +11,9 @@ Yan Wang 22019755
 ****
 ## Introduction
 
-### 游戏背景介绍
+### Game Background
 
-### 游戏玩法
-
-### 演示视频
+### Demo Video
 
 ****
 ## Production_Process
