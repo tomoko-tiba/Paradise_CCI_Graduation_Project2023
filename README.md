@@ -248,7 +248,7 @@ Create an empty object named 'rotate' as the parent, and set the distance betwee
 
 <br>
 
-## Week 06 Develop T  he Game Using Blueprint
+## Week 06 Develop in Blueprint
 
 ### Main tasks of game development:
 **1. Player character functions (UI, shoot, pick up objects, dialogue)**
@@ -257,19 +257,25 @@ Create an empty object named 'rotate' as the parent, and set the distance betwee
 
 **3. Enemy character function (drops modules when attacked)**
 
+### Develop Firstperson Character 
+
+**Implement player movement, jumping, and shooting using the First-Person Game Template in UE5.**
+
 **UI-HP bar**
   1. Make a PlayerState component to save the Player's HP and other data
   2. Mount playerState to Player blueprint
-  3. Get HP data in the game UI blood volume control
+  3. Get HP data in the game UI blood volume control. (Get percent function)
+    ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/a4115f50-c415-4e36-b977-557b06c4ef98)
+
 
 **Debug Process：** Unable to display correct health bar   
 1. It was found that the result of calculating the percentage of the health bar is always 0, but the correct HP value can be obtained.
    
     ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/9bfc4e80-7359-4ca0-a73d-0deb1ebb556e)
 
-
 3. The guess is that the error is caused by data type conversion in the division function.
-4. The HP value type saved by the PlayerState component was changed from int to float, which was successfully solved.
+   
+5. The HP value type saved by the PlayerState component was changed from int to float, which was successfully solved.
    
     ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/16345fba-4272-4237-bda7-382194b40526)
 
@@ -277,22 +283,20 @@ Create an empty object named 'rotate' as the parent, and set the distance betwee
 
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/779907e8-9bd3-416e-8c48-42506f16bfd6)
 
-In the game, the enemies are machines that control Barbie's thoughts. When a machine is hit by the player, Barbie regains her sanity, stops attacking the player, and becomes available for dialogue.
+Implement the pickup functionality in the player character blueprint.
 
-**Barbie:**
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/010d3246-c9c8-48e9-9053-f3aabd749c1f)
 
-1. Detects the player's approach and automatically pathfinds to chase the player.
-2. Becomes available for dialogue when hit by an enemy.
-3. Provides the player with items after completing the dialogue.
+In the UI widget blueprint, add a single message in the message box.
 
-**Enemy (in the air):**
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/12d15440-53a8-4596-b5a3-c0ae32208e26)
 
-1. Set up collision detection. Responds when hit by the player's bullets, changing Barbie's status to be available for dialogue.
-2. After 3 minutes, revert Barbie's status back to attack mode.
+### Develop Barbie Character 
 
-**Communication between Barbie Actor and Enemy Actor Blueprints:**
+**Modify the material of the character model to make her appearance more in line with Barbie.**
 
-The enemy creates an Event Dispatcher ED_EnemyStop.
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/8b722400-cb96-4030-a7ae-217148df23fb)
+
 
 
 
