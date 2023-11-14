@@ -59,10 +59,10 @@ In the Chinese version of "The Second Sex," there may be a more precise descript
 
 How to make women consciously adhere to and uphold patriarchy? It constructs a pink paradise for women, where they are promised love, an effortless life path, and the belief that enhancing their appearance will yield more resources. **It leads women to believe that as long as they conform to patriarchal social standards and cater to the male gaze, they can obtain the maximum benefits.** However, behind this paradise lies patriarchy, which often includes any social, political, or economic mechanism that evokes male dominance over women. **Because patriarchy is a social construction, it can be overcome by revealing and critically analyzing its manifestations.** This is especially crucial for teenagers, who, due to their less mature cognitive development, are more susceptible to the temptation of such a deceptive paradise. **Only by shattering the illusions of this paradise can we awaken the self-awareness of more women and propel the achievement of gender equality.**
 
-## Week 02 Game research
+## Week 02 Game Research And Plan
 ### The application of dystopian critique design in the gaming industry
 
-**Paper，Please**
+**Paper，Please**R
 
 <img height="200" src="https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/27ff91d7-887f-4f15-925e-5e528df61a20">
 
@@ -293,9 +293,11 @@ In the UI widget blueprint, add a single message in the message box.
 
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/8b722400-cb96-4030-a7ae-217148df23fb)
 
-## Week 07
+<br>
 
-#### Cover Redesign
+## Week 07 Continue Developing
+
+#### Cover Redesign 
 
 **Draft**
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/cb1327b7-22e6-49c1-84f7-3468cff35b72)
@@ -304,9 +306,41 @@ In the UI widget blueprint, add a single message in the message box.
 
 Use the traffic light elements from the enemy character as design elements for the game cover, serving as a metaphor for the game's theme '**Rules** for Women in Society'.
 
-![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/d2436b7b-587d-48eb-9ce8-c5145982f3b1)
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/6385b532-328f-49a5-adfa-ab0e82709b7d)
 
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/e25eefa4-2075-4bf8-94aa-4a603a6acafb)
+
+### Dialogue System:  Using the dialogue plugin Dialogue Plugin
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/eee53f4a-281b-4580-b272-1b5d259e3f3e)
+
+Trigger events through dialogue:  Create a new dialogue event, call the event in the dialogue event blueprint, and bind it within the dialogue. 
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/37d2a54e-0513-4477-b568-ddd1381e262f)
+
+Write the event function in the First-Person Character Blueprint.
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/f91d35ad-7fb7-4cfa-b8a2-11b2d5057587)
+
+**Debug:** During chatting, selecting options requires the mouse, but this causes a conflict as the camera moves with the mouse movement.
+
+The solution is to set a Boolean variable 'IsChatting'; mouse control of the camera movement is only allowed when 'IsChatting' is false.
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/8366be49-44dd-4589-9c68-81b69842e177)
+
+**Set in First-Person Blueprint: Start a dialogue when coming into contact with Barbie.**
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/048b13d6-1694-44b7-81c9-f178d900ca20)
+
+### Develop Barbie Character 
+
+**If the player is spotted, begin pursuit.**
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/a2e0b5cd-e2c5-41d1-a86c-79f1ffd8a91b)
+
+**AI Automatic Patrol**
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/f1257c54-73d8-47bb-b9b3-6497b85fefaf)
+
+### Enemy Character
 
 
 
