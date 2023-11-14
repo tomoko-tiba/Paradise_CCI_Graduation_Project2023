@@ -221,7 +221,7 @@ I based the 3D model on the collage image I made earlier. Initially, I set the e
 
 I have also integrated elements of **eyeballs** into the design of the machine, creating a sensation for players of being under scrutiny. This is intended to symbolize the machine as an embodiment of the **male gaze**.
 
-![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/99a930db-d0a6-4221-9781-ce59f5d37d01)
+<img height="400" src="https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/99a930db-d0a6-4221-9781-ce59f5d37d01">
 
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/dc00cc2a-05ed-4b8e-8930-4c6f7cecc07f)
 
@@ -241,10 +241,6 @@ Using Blueprints to Control Enemy Rotation: <br>
 Create an empty object named 'rotate' as the parent, and set the distance between the 'rotate' object and the 'enemy' object to serve as the center of rotation
     
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/f2bcfe39-0814-423e-aa86-aca58370b80b)
-
-**Cover Redesign Draft**
-
-![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/cb1327b7-22e6-49c1-84f7-3468cff35b72)
 
 <br>
 
@@ -297,7 +293,20 @@ In the UI widget blueprint, add a single message in the message box.
 
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/8b722400-cb96-4030-a7ae-217148df23fb)
 
+## Week 07
 
+#### Cover Redesign
+
+**Draft**
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/cb1327b7-22e6-49c1-84f7-3468cff35b72)
+
+**Final Design**
+
+Use the traffic light elements from the enemy character as design elements for the game cover, serving as a metaphor for the game's theme '**Rules** for Women in Society'.
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/d2436b7b-587d-48eb-9ce8-c5145982f3b1)
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/e25eefa4-2075-4bf8-94aa-4a603a6acafb)
 
 
 
