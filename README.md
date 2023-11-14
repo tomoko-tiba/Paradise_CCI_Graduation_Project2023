@@ -2,6 +2,13 @@
 Creative Computing
 Yan Wang 22019755
 
+****
+## Content
+* [Introduction](#Introduction)
+* [Production Process](#ProductionProcess)
+* [Conclusion](#Conclusion)
+
+****
 ## Introduction
 
 ### 游戏背景介绍
@@ -10,8 +17,8 @@ Yan Wang 22019755
 
 ### 演示视频
 
-
-# 制作过程
+****
+## Production Process
 
 ## Week 01 Sources of inspiration and research
 
@@ -403,6 +410,8 @@ Plans for game iteration:
 3. In terms of dialogue, increase the options and add more detailed descriptions, allowing players to gain a deeper understanding of the characters' backgrounds and emotional states. Also, enhance the coherence and logic of dialogue scenes to improve the storytelling.
 4. Make the game objectives clearer and more explicit. Players should know what they need to do to better enjoy the game. I will add more guidance and hints to help players understand the game objectives better.
 
+<br>
+
 ## Week 10 Enrich The Details
 
 1. **Use Sequencer to Create Opening Animation**: Implement Unreal Engine's Sequencer to produce an engaging opening animation. This tool allows for sophisticated cinematic creation, enabling the integration of various elements like camera movements, character animations, and environmental effects to craft a visually compelling introduction to the game.
@@ -411,5 +420,20 @@ Plans for game iteration:
    ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/e8de876f-0713-43fa-a4bd-2c3e11ff3245)
 
 2. **Refine Game Instruction Copy, Utilize ChatGPT for Optimization**: Focus on improving the game's instructional text. This involves revising prompts, directions, and any other written guidance provided to the player within the game. I used ChatGPT to generate copy. These tools can assist in enhancing the clarity, conciseness, and engagement of the text, ensuring that instructions are easy to understand and align with the game's overall tone and style.
+
+<br>
+
+****
+### Conclusion
+
+In conclusion, the development of this game has been a journey of innovation and learning, underpinned by the iterative process of design, feedback, and refinement. From conceptualizing a unique narrative that intertwines the challenges faced by character under the male gaze to implementing sophisticated mechanics using UE5, each step has contributed significantly to the project's depth. The integration of a dynamic enemy system, symbolized by machines controlling Barbie's thoughts, not only serves the gameplay mechanics but also embeds a deeper message about societal norms and perceptions.
+
+User testing played a crucial role in identifying key areas for improvement, leading to critical adjustments like streamlining the number of NPCs and enhancing the dialogue system. Leveraging tools like the Sequencer for opening animations and ChatGPT for optimizing game instructions demonstrated a commitment to quality and player engagement.
+
+Looking ahead, the focus will be on refining these elements further, ensuring a cohesive and immersive gaming experience that balances challenge with narrative intrigue. The journey from a mere concept to a fully-fledged game prototype underscores the importance of adaptability and user-centric design in game development. As the project moves forward, these principles will continue to guide the evolution of the game, promising an engaging and thought-provoking experience for its audience.
+
+
+
+
 
 
