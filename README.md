@@ -196,6 +196,8 @@ Based on the concept of 'Paradise', a theme park is chosen as the setting for th
 
 ## Week 04 Further Attempts Based on Plan 2
 
+**Because the visual style of the first proposal was too juvenile and not suitable for the serious theme I wanted to convey, I abandoned that approach and began exploring a second proposal.**
+
 **Setup Game Mechanics** 
 
 To make the player's objectives clearer during the game, here are the specific steps for the game design:
