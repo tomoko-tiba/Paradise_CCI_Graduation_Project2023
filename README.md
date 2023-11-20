@@ -11,9 +11,22 @@ Yan Wang 22019755
 ****
 ## Introduction
 
-### Game Background
+The game delves into the conflict between self-identity and societal expectations. Players are taken into an imaginary world called 'Paradise', where they must help Barbie - an alternate persona of the protagonist developed due to societal and patriarchal pressures in the real world - realize her true self, and not be a slave to perfect standards. By destroying the brainwave control device, players will help Barbie break free from brainwashing, regain her self-awareness, and escape from the 'Paradise' that confines her.
 
-### Demo Video
+#### Game Flow
+
+The game's mechanics revolve around liberating both Barbie and the protagonist from these constraining influences. The player's mission is to destroy the brainwave control machines, symbolizing the breaking free from societal norms and expectations. Each machine is composed of various social rules of Paradise. The machines brainwash Barbie into unconsciously adhering to these rules, turning her into a maintainer of an unequal patriarchal society. This task isn't just a physical battle but also a psychological one, as each destroyed device unveils the harsh truths and painful memories hidden behind the facade of perfection.
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/8f84ff84-e0a0-4326-8fe0-95413d21580b)
+
+#### Demo Video
+
+
+#### Technical Challenge
+
+The key technical challenge of this game lies in independently completing the entire process of game design from concept to release. This involves not only skillfully transforming deep themes such as personal identity, societal pressure, and internal conflict into engaging game content through game mechanics, but also requires the game designer to independently model key game props, integrate other art resources, as well as program and develop the game. Additionally, it involves designing UI and visual effects that match the game's atmosphere, and creating copy that aligns with the game's world view. These elements must be closely combined to form a seamless production process, ensuring the game is both profound and entertaining. Within limited resources and time, the game designer must handle the variable outcomes of player interactions, achieving a rich and flexible gaming experience.
+
+<br>
 
 ****
 ## Production_Process
@@ -225,8 +238,6 @@ https://www.bilibili.com/video/BV1Rj411w78h/?spm_id_from=333.1350.jump_directly&
 
 I based the 3D model on the collage image I made earlier. Initially, I set the enemy as a large fixed-position machine, but later I thought that simplifying the enemy into a small machine floating in the sky would make the game more interesting, so I changed the plan. 
 
-I have also integrated elements of **eyeballs** into the design of the machine, creating a sensation for players of being under scrutiny. This is intended to symbolize the machine as an embodiment of the **male gaze**.
-
 <img height="400" src="https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/99a930db-d0a6-4221-9781-ce59f5d37d01">
 
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/dc00cc2a-05ed-4b8e-8930-4c6f7cecc07f)
@@ -247,6 +258,12 @@ Using Blueprints to Control Enemy Rotation: <br>
 Create an empty object named 'rotate' as the parent, and set the distance between the 'rotate' object and the 'enemy' object to serve as the center of rotation
     
 ![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/f2bcfe39-0814-423e-aa86-aca58370b80b)
+
+<br>
+
+I have also integrated elements of **eyeballs** into the design of the machine, creating a sensation for players of being under scrutiny. This is intended to symbolize the machine as an embodiment of the **male gaze**.
+
+![image](https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/assets/41440180/a6346f94-b80f-48db-919d-335f403a7735)
 
 <br>
 
