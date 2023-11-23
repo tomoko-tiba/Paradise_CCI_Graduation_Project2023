@@ -21,6 +21,7 @@ The game's mechanics revolve around liberating both Barbie and the protagonist f
 
 #### Demo Video
 
+<a href="https://youtu.be/JPsgKxY1GP4" target="_blank">Click Here</a>
 
 #### Technical Challenge
 
