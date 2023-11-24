@@ -27,6 +27,9 @@ The game's mechanics revolve around liberating both Barbie and the protagonist f
 
 The key technical challenge of this game lies in independently completing the entire process of game design from concept to release. This involves not only skillfully transforming deep themes such as personal identity, societal pressure, and internal conflict into engaging game content through game mechanics, but also requires the game designer to independently model key game props, integrate other art resources, as well as program and develop the game. Additionally, it involves designing UI and visual effects that match the game's atmosphere, and creating copy that aligns with the game's world view. These elements must be closely combined to form a seamless production process, ensuring the game is both profound and entertaining. Within limited resources and time, the game designer must handle the variable outcomes of player interactions, achieving a rich and flexible gaming experience.
 
+#### Project File （UE5 File）
+https://drive.google.com/drive/folders/1IY4p63VghVdGE3avqFgfC18glyrSEBMb?usp=drive_link
+
 <br>
 
 ****
