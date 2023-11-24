@@ -1,6 +1,9 @@
 # Paradise_CCI_Graduation_Project2023
 Creative Computing
+
 Yan Wang 22019755
+
+Github Blog: https://github.com/tomoko-tiba/Paradise_CCI_Graduation_Project2023/tree/main
 
 ****
 ## Content
@@ -21,7 +24,9 @@ The game's mechanics revolve around liberating both Barbie and the protagonist f
 
 #### Demo Video
 
-<a href="https://youtu.be/JPsgKxY1GP4" target="_blank">Click Here</a>
+<a href="https://vimeo.com/manage/videos/887858667" target="_blank">Vimeo(Recommended)</a>
+
+<a href="https://youtu.be/JPsgKxY1GP4" target="_blank">Youtube</a>
 
 #### Technical Challenge
 
